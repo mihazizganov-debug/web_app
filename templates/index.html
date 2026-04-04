@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Мой магазин</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/catalog">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/category">Категория</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contacts">Контакты</a></li>
+                </ul>
+
+                <!-- Выпадающее меню справа -->
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Профиль
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" href="#">Вывод</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Пользователь</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="text-center mb-5">
+            <h1 class="display-4">Главная</h1>
+            <p class="lead">Вы находитесь на сайте, предназначенном для продажи товаров.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Товар 1</h5>
+                        <p class="card-text">$100 — 10 users included, 2 GB of storage, Email support, Help center access</p>
+                        <a href="#" class="btn btn-primary">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Товар 2</h5>
+                        <p class="card-text">$100 — 10 users included, 2 GB of storage, Email support, Help center access</p>
+                        <a href="#" class="btn btn-primary">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Товар 3</h5>
+                        <p class="card-text">$100 — 10 users included, 2 GB of storage, Email support, Help center access</p>
+                        <a href="#" class="btn btn-primary">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Мой магазин</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
