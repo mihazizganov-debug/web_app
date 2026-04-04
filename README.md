@@ -19,4 +19,4 @@ POST-обработка
 Форма на странице "Контакты" отправляет данные в консоль.
 
 Pull Request
-[Ссылка на PR будет добавлена]
+https://github.com/mihazizganov-debug/web_app
